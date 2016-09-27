@@ -1,0 +1,12 @@
+C:\Development_Projects\GIT_Projects\WebEng\Assignment05\Assignment05\NotebookExampleMethods.php
+Method: __construct
+Method: __destruct
+Method: getVendor
+Method: setVendor
+Method: getPrice
+Method: setPrice
+Method: getType
+Method: setType
+Method: showallNotebookInformation
+Method: __toString
+Method: __clone
