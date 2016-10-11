@@ -10,7 +10,7 @@ if ((!isset($_POST['submit'])) || (!isset($_POST['notebook']) && (isset($_POST['
             <input type="radio" name="notebook" value="probook">HP ProBook 640 G1<br>
             <input type="radio" name="notebook" value="pavillon">HP Pavilion 13-a100 x360<br>
             </p>
-            <input type="submit" name="submit" value="Speichern" />
+            <input type="submit" name="submit" value="Submit" />
             <input type="reset" value="Reset"/>
         </form>
         ';

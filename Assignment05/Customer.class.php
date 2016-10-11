@@ -2,7 +2,7 @@
 
 require_once 'GreetAble.php';
 
-class Customer extends Person implements Greetable {
+class Customer extends Person implements GreetAble {
 
     protected $customerId;
 

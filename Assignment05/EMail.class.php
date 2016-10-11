@@ -32,10 +32,14 @@ class EMail
 
     public function storeDataInFile()
     {
-        $file = fopen("mail.txt", "a");
-        $content = $this->getEmail() . "|" . $this->getTimestamp() . "\n";
-        fwrite($file, $content);
-        fclose($file);
+        try {
+            $file = fopen("mail.txt", "a");
+            $content = $this->getEmail() . "|" . $this->getTimestamp() . "\n";
+            fwrite($file, $content);
+            fclose($file);
+        } catch (Exception $e) {
+            echo 'Caught exception: ', $e->getMessage(), "\n";
+        }
     }
 
     public function getTimestamp()

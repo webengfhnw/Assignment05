@@ -1,6 +1,6 @@
 <?php
 
-interface Greetable {
-        public function getSalutation();
-    } 
-?>
+interface GreetAble
+{
+    public function getSalutation();
+}

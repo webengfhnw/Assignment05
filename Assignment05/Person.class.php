@@ -2,7 +2,7 @@
 
 require_once 'GreetAble.php';
 
-class Person implements Greetable {
+class Person implements GreetAble {
 
     protected $firstName;
     protected $lastName;
